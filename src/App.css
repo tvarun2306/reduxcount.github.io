@@ -1,11 +1,58 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(215, 208, 249);
+  padding: 100px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+.container{
+  background-color: rgb(186, 186, 186);
+  height:50px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+  font-size: 30px;
+  font: weight 100px;
+  color: blue; 
+}
+
+.quantity-input{
+  height: 35px;
+  width: 100px;
+  text-align: center;
+  font-weight: 200;
+  font-size: 30px;
+  border-color: white;
+  box-shadow:  inset 5 2 black;
+}
+
+.quantity-minus:hover{
+  background-color: lightblue;
+  height: 35px;
+  width: 35px;
+  border-radius: 15px;
+
+}
+.quantity-plus:hover{
+  background-color: lightblue;
+  height: 35px;
+  width: 35px;
+  border-radius: 15px;
+
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
